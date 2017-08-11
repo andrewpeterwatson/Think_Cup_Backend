@@ -1,0 +1,37 @@
+{
+  "name": "think_cup_backend",
+  "version": "0.0.1",
+  "description": "A back end server to support a coffee cupping aplication platformed for web and mobile",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lint": "./node_modules/mocha/bin/mocha",
+    "start:dev": "DEBUG=thinkcup* nodemon server.js"
+  },
+  "author": "andrewpeterwatson@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "eslint": "^4.4.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-mocha": "^4.3.1",
+    "gulp-nodemon": "^2.2.1",
+    "mocha": "^3.5.0",
+    "superagent": "^3.5.2",
+    "superagent-promise-plugin": "^3.2.0",
+    "superagent-use": "^0.1.0"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "debug": "^3.0.0",
+    "express": "^4.15.4",
+    "http-errors": "^1.6.2",
+    "jsonwebtoken": "^7.4.2",
+    "mongoose": "^4.11.6",
+    "morgan": "^1.8.2"
+  }
+}
